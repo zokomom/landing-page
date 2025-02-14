@@ -1,0 +1,172 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 3px 0px;
+    gap: 420px;
+}
+#header-logo{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-weight: bold;
+}
+#header-link a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+#header-link ul{
+    display: flex;
+    padding:0;
+    gap: 19px;
+    list-style: none;
+}
+/* -----------------------------------------------------*/
+/* -----------------------------------------------------*/
+.hero{
+    background-color:#1f2937;
+    display: flex;
+    align-items: center;
+    padding: 110px 180px;
+    gap: 25px;
+}
+.big-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:900;
+    padding-bottom: 10px;
+    line-height: 50px;
+}
+.subtext{
+    padding-top:0px ;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 8px;
+}
+.hero-text{
+    display: flex ;
+    flex-flow: column wrap;
+    align-items:baseline;
+    justify-content:left;
+}
+
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 17px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 2px;
+}
+#random-info{
+    color:#1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+/* ------------this is the 4 photo section----------- */
+.images-4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 50px;
+}
+.images-4 .image-text-container img{
+    height: 170px;
+    width: 170px;
+    border-radius:15px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882f6;
+    margin-bottom: 7px;
+}
+.image-text-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(77, 74, 74);
+    font-size: 18px;
+    line-height:19px;
+    max-width:181px;
+}
+/* ------------Quote section----------- */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 279px;
+}
+#quote-text{
+    font-size: 36px;
+    font-weight: 350;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 48px;
+}
+#quote-by{
+    font-size:23px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 500px;
+}
+/* blue background with sign up button */
+
+.call-to-action{
+    background-color: #3882f6;
+    margin: 110px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9px;
+    padding: 50px 120px;
+}
+.call-text #call-to-action-text-1{
+    color:#f9faf8;
+    font-weight: bold;
+    font-size: 23px;
+}
+.call-text #call-to-action-text-2{
+    color: #e5e7eb;
+    font-size: 17px;
+}
+.call-button{
+    color: #f9faf8;
+    border: #f9faf8 solid 2px;
+    border-radius: 7px;
+}
+.call-button #sign-up{
+    color: #f9faf8;
+    margin: 0px 5px;
+    font-size: 17px;
+}
+/*Footer at the last*/
+footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    color: #f9faf8;
+    font-size: large;
+    margin: 30px;
+    font-weight: 500;
+}
