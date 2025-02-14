@@ -43,7 +43,7 @@ This is a simple yet elegant **Landing Page** built as part of [The Odin Project
 
 ## 🔥 Live Demo
 
-[https://github.com/zokomom/landing-page/](#)
+[https://zokomom.github.io/landing-page/](#)
 
 ## 🛠️ How to Run the Project
 
